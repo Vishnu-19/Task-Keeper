@@ -167,7 +167,7 @@ componentDidMount =()=>{
   render(){
   return (
     <div className="container">
-    <h1>Task Manager</h1>
+    <h1>Task Keeper</h1>
    <form id="to-do" className="form" onSubmit={this.addItem}>
    <input className="txtb" name='text' value={this.state.currentItem.text} onChange={this.handleInput} placeholder="Add a Task"></input>
    
